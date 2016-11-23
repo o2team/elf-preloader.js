@@ -84,16 +84,20 @@ PS: If no use module bundler (e.g.: webpack、browserify), you can direct refere
 
 ### instance method
 
-#### addProgressListener(Function)
+**`addProgressListener(Function)`**
+
 Set every resouce load is completed the callback function
 
-#### addCompletionListener(Function)
+**`addCompletionListener(Function)`**
+
 Set all resouces load is completed the callback function
 
-#### get(String)
+**`get(String)`**
+
 Get instances of completed
 
-#### start()
+**`start()`**
+
 Begin load. All ready after invoke.
 
 

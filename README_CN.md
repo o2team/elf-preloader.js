@@ -83,16 +83,20 @@ PS: 如果没有使用打包工具（例如：webpack、browserify），则直�
 
 ### 实例方法
 
-#### addProgressListener(Function)
+**`addProgressListener(Function)`**
+
 设置单个资源加载完成时的回调函数
 
-#### addCompletionListener(Function)
+**`addCompletionListener(Function)`**
+
 设置所有加载都完成时的回调函数
 
-#### get(String)
+**`get(String)`**
+
 获取资源加载完成后的实例
 
-#### start()
+**`start()`**
+
 开始加载。
 
 
