@@ -91,7 +91,7 @@ Set every resouce load is completed the callback function
 Set all resouces load is completed the callback function
 
 #### get(String)
-Get instances of completed
+Get instances of completed
 
 #### start()
 Begin load. All ready after invoke.
