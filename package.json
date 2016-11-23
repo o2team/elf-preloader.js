@@ -1,0 +1,24 @@
+{
+  "name": "preloader.js",
+  "version": "1.0.0",
+  "description": "A js library for preload image and audio",
+  "main": "src/preloader.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o2team/elf-preloader.js.git"
+  },
+  "keywords": [
+    "preloader",
+    "loader",
+    "image",
+    "audio"
+  ],
+  "bugs": {
+    "url": "https://github.com/o2team/elf-preloader.js/issues"
+  },
+  "homepage": "https://github.com/o2team/elf-preloader.js#readme",
+  "author": "Liucw",
+  "license": "MIT"
+}
