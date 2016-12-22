@@ -64,9 +64,9 @@ PS: 如果没有使用打包工具（例如：webpack、browserify），则直�
 
 - **attr** `String`
 
-  默认: `preload`.
+  默认: `data-preload`.
 
-  DOM 标签预加载的属性。例如：`<img src="img/logo.png" preload/>`，则 `'img/logo.png'` 也会加入到 `resources` 里。
+  DOM 标签预加载的属性。例如：`<img src="img/logo.png" data-preload/>`，则 `'img/logo.png'` 也会加入到 `resources` 里。
 
 - **onProgress** `Function`
 

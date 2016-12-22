@@ -65,9 +65,9 @@ PS: If no use module bundler (e.g.: webpack、browserify), you can direct refere
 
 - **attr** `String`
 
-  Default: `preload`.
+  Default: `data-preload`.
 
-  DOM node attribute of preload. Example: `<img src="img/logo.png" preload/>`, the `'img/logo.png'` will been added in `resources`.
+  DOM node attribute. Example: `<img src="img/logo.png" data-preload/>`, the `'img/logo.png'` will been added in `resources`.
 
 - **onProgress** `Function`
 

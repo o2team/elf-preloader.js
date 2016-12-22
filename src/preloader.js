@@ -38,7 +38,7 @@
             resources: [],
             concurrency: 0,
             perMinTime: 0,
-            attr: 'preload',
+            attr: 'data-preload',
             onProgress: null,
             onCompletion: null
         }, options)
