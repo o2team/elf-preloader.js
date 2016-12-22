@@ -1,6 +1,6 @@
 {
   "name": "preloader.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A js library for preload image and audio",
   "main": "src/preloader.js",
   "scripts": {
