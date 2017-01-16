@@ -55,6 +55,8 @@
         this.resourceMap = {}
 
         this.done = function (resource, instance) {
+            if (this.length === 0) return this.onCompletion && this.onCompletion(0)
+
             this.completedCount += 1
             this.resourceMap[resource] = instance
 
