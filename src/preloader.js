@@ -31,7 +31,7 @@
         }
         return output
     }
-
+    var body = document.body || document.getElementsByTagName('body')[0]
 
     var Preloader = function (options) {
         this.opts = assign({
@@ -53,6 +53,15 @@
         this.completedCount = 0
         this.loadingIndex = 0
         this.resourceMap = {}
+        this.div = document.createElement('div')
+
+        var style = this.div.style
+        style.visibility = 'hidden'
+        style.position = 'absolute'
+        style.width = style.height = '10px'
+        style.overflow = 'hidden'
+        style.transform = style.msTransform = style.webkitTransform = style.oTransform = 'translate(-10px, -10px)'
+        body.appendChild(this.div)
 
         this.done = function (resource, instance) {
             if (this.length === 0) return this.onCompletion && this.onCompletion(0)
@@ -97,7 +106,9 @@
         }
         this.audioLoader = function (resource) {
             var self = this
+
             var audio = new Audio()
+            self.div.appendChild(audio)
             var startTime = new Date()
             var handler = function () {
                 var duration = new Date() - startTime
