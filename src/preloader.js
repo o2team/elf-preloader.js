@@ -7,7 +7,7 @@
         module.exports = factory()
     } else {
         // Browser globals (root is window)
-        root.Orientation = factory()
+        root.Preloader = factory()
     }
 }(this, function () {
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
