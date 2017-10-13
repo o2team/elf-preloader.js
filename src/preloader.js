@@ -93,6 +93,7 @@
             var self = this
 
             var image = new Image()
+            self.div.appendChild(image)
             var startTime = new Date()
             image.onload = image.onerror = function () {
                 var duration = new Date() - startTime
