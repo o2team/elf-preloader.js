@@ -58,6 +58,7 @@
         var style = this.div.style
         style.visibility = 'hidden'
         style.position = 'absolute'
+        style.top = style.left = '0'
         style.width = style.height = '10px'
         style.overflow = 'hidden'
         style.transform = style.msTransform = style.webkitTransform = style.oTransform = 'translate(-10px, -10px)'
@@ -104,6 +105,10 @@
                 }, diff) : self.done(resource, image)
             }
             image.src = resource
+            image.style.width = 'auto'
+            image.style.height = 'auto'
+            image.style.maxWidth = 'none'
+            image.style.maxHeight = 'none'
         }
         this.audioLoader = function (resource) {
             var self = this
