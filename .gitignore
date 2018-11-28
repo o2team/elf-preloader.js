@@ -16,3 +16,5 @@ node_modules
 coverage.html
 coverage
 lib-cov
+.eslintcache
+dist/

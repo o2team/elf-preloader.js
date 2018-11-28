@@ -1,0 +1,13 @@
+extends: standard
+env:
+  es6: true
+  browser: true
+rules:
+  no-console: 1
+  no-unused-vars: 1
+  object-curly-spacing:
+    - 2
+    - always
+  comma-dangle:
+    - 2
+    - always-multiline
