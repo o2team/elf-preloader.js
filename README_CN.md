@@ -68,6 +68,12 @@ PS: 如果没有使用打包工具（例如：webpack、browserify），则直�
 
   DOM 标签预加载的属性。例如：`<img src="img/logo.png" data-preload/>`，则 `'img/logo.png'` 也会加入到 `resources` 里。
 
+- **crossOrigin** `Boolean`
+
+  默认: `false`.
+
+  如果设置为 `true`，则会将 images 的 crossOrigin 属性设置为 `Anonymous`，以从支持 CORS 的服务器加载图片。
+
 - **onProgress** `Function`
 
   默认: `null`.

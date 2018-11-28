@@ -39,6 +39,7 @@
             concurrency: 0,
             perMinTime: 0,
             attr: 'data-preload',
+            crossOrigin: false,
             onProgress: null,
             onCompletion: null
         }, options)
@@ -94,6 +95,7 @@
             var self = this
 
             var image = new Image()
+            if (self.opts.crossOrigin) image.crossOrigin = 'Anonymous'
             self.div.appendChild(image)
             var startTime = new Date()
             image.onload = image.onerror = function () {

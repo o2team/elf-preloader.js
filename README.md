@@ -69,6 +69,12 @@ PS: If no use module bundler (e.g.: webpack、browserify), you can direct refere
 
   DOM node attribute. Example: `<img src="img/logo.png" data-preload/>`, the `'img/logo.png'` will been added in `resources`.
 
+- **crossOrigin** `Boolean`
+
+  Default: `false`.
+
+  If set to `true`, which will set the crossOrigin property on images to `Anonymous` for support images loaded from a CORS-enabled server.
+
 - **onProgress** `Function`
 
   Default: `null`.
