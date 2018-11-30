@@ -1,4 +1,4 @@
-import assign from './assigin'
+import assign from './assign'
 
 var body = document.body || document.getElementsByTagName('body')[0]
 
