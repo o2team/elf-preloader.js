@@ -1,6 +1,6 @@
 {
   "name": "preloader.js",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A js library for preload image and audio",
   "main": "dist/preloader.cjs.js",
   "module": "dist/preloader.esm.js",
